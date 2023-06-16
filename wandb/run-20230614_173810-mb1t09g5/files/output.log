@@ -1,0 +1,38 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 117, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 124, in train
+    loss = loss_calc(model, batch)  #compute training loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 45, in calc_loss
+    z = model.feed(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 138, in feed
+    return self.encoder(self.embedding_layer(x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 55, in forward
+    x = layer(x)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 101, in forward
+    x = self.sublayers[0](x, lambda z: self.self_attn(z, z, z)[0])
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/architecture.py", line 45, in forward
+    return x + self.dropout(sublayer(self.norm(x)))
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 101, in <lambda>
+    x = self.sublayers[0](x, lambda z: self.self_attn(z, z, z)[0])
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/misa.py", line 42, in forward
+    output, attn_output_weights = super().forward(query, key, value, **kwargs)  # call forward function for MHA
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 1189, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/functional.py", line 5168, in multi_head_attention_forward
+    assert embed_dim == embed_dim_to_check, \
+AssertionError: was expecting embedding dimension of 208, but got 216
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

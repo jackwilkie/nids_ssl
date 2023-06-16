@@ -1,0 +1,78 @@
+epoch = 0  |  train_loss = 0.162299  |  val_loss = 0.158199  |  training_for: 1.72
+epoch = 1  |  train_loss = 0.151534  |  val_loss = 0.157599  |  training_for: 3.10
+epoch = 2  |  train_loss = 0.150130  |  val_loss = 0.157841  |  training_for: 4.50
+epoch = 3  |  train_loss = 0.149542  |  val_loss = 0.158470  |  training_for: 5.89
+epoch = 4  |  train_loss = 0.149324  |  val_loss = 0.159782  |  training_for: 7.26
+epoch = 5  |  train_loss = 0.149181  |  val_loss = 0.159663  |  training_for: 8.64
+epoch = 6  |  train_loss = 0.149095  |  val_loss = 0.160029  |  training_for: 10.01
+epoch = 7  |  train_loss = 0.149001  |  val_loss = 0.159600  |  training_for: 11.39
+epoch = 8  |  train_loss = 0.148932  |  val_loss = 0.159519  |  training_for: 12.77
+epoch = 9  |  train_loss = 0.148942  |  val_loss = 0.159658  |  training_for: 14.15
+epoch = 10  |  train_loss = 0.148937  |  val_loss = 0.158469  |  training_for: 15.62
+epoch = 11  |  train_loss = 0.148942  |  val_loss = 0.160065  |  training_for: 16.99
+epoch = 12  |  train_loss = 0.148854  |  val_loss = 0.158034  |  training_for: 18.37
+epoch = 13  |  train_loss = 0.148767  |  val_loss = 0.159146  |  training_for: 19.75
+epoch = 14  |  train_loss = 0.148778  |  val_loss = 0.158121  |  training_for: 21.13
+epoch = 15  |  train_loss = 0.148707  |  val_loss = 0.158448  |  training_for: 22.51
+epoch = 16  |  train_loss = 0.148678  |  val_loss = 0.157938  |  training_for: 23.89
+epoch = 17  |  train_loss = 0.148698  |  val_loss = 0.156768  |  training_for: 25.26
+epoch = 18  |  train_loss = 0.148698  |  val_loss = 0.159555  |  training_for: 26.63
+epoch = 19  |  train_loss = 0.148667  |  val_loss = 0.158926  |  training_for: 28.00
+epoch = 20  |  train_loss = 0.148625  |  val_loss = 0.157504  |  training_for: 29.38
+epoch = 21  |  train_loss = 0.148570  |  val_loss = 0.158611  |  training_for: 30.76
+epoch = 22  |  train_loss = 0.148585  |  val_loss = 0.158656  |  training_for: 32.13
+epoch = 23  |  train_loss = 0.148589  |  val_loss = 0.159891  |  training_for: 33.50
+epoch = 24  |  train_loss = 0.148596  |  val_loss = 0.159818  |  training_for: 34.97
+epoch = 25  |  train_loss = 0.148590  |  val_loss = 0.158474  |  training_for: 36.35
+epoch = 26  |  train_loss = 0.148571  |  val_loss = 0.160038  |  training_for: 37.72
+epoch = 27  |  train_loss = 0.148539  |  val_loss = 0.159465  |  training_for: 39.10
+epoch = 28  |  train_loss = 0.148541  |  val_loss = 0.158682  |  training_for: 40.48
+epoch = 29  |  train_loss = 0.148540  |  val_loss = 0.157800  |  training_for: 41.86
+epoch = 30  |  train_loss = 0.148562  |  val_loss = 0.160340  |  training_for: 43.24
+epoch = 31  |  train_loss = 0.148511  |  val_loss = 0.159269  |  training_for: 44.60
+epoch = 32  |  train_loss = 0.148524  |  val_loss = 0.158665  |  training_for: 45.97
+epoch = 33  |  train_loss = 0.148496  |  val_loss = 0.158804  |  training_for: 47.34
+epoch = 34  |  train_loss = 0.148464  |  val_loss = 0.159145  |  training_for: 48.71
+epoch = 35  |  train_loss = 0.148477  |  val_loss = 0.160171  |  training_for: 50.08
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 127, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 114, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 144, in train
+    loss = loss_calc(model, batch)  #compute validation loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 46, in calc_loss
+    z_aug = model.feed_aug(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 141, in feed_aug
+    return self.encoder(self.latent_aug(self.embedding_layer(self.feature_aug(x))))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 55, in forward
+    x = layer(x)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 101, in forward
+    x = self.sublayers[0](x, lambda z: self.self_attn(z, z, z)[0])
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/architecture.py", line 45, in forward
+    return x + self.dropout(sublayer(self.norm(x)))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/normalisation.py", line 72, in forward
+    if self.bias:
+KeyboardInterrupt

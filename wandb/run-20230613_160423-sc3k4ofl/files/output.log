@@ -1,0 +1,8 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 108, in main
+    train(model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 98, in train
+    for epoch in range(epochs):
+TypeError: 'DataLoader' object cannot be interpreted as an integer
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

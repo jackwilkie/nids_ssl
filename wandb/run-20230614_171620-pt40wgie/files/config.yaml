@@ -1,0 +1,99 @@
+wandb_version: 1
+
+dataset:
+  desc: null
+  value:
+    name: cicids2017
+    path: ~/data/CICIDS2017/cicids2017.csv
+    drop:
+    - proto
+    - prt_dst
+    - prt_src
+    - num_src_flows
+    - src_ip_dst_prt_delta
+    train_test_ratio: 0.7
+    train_test_seed: 4558636
+model:
+  desc: null
+  value:
+    name: saint
+    d_model: 8
+    encoder_d_ff: 16
+    d_proj_ff: 128
+    d_proj: 64
+    n_encoder_layers: 6
+    encoder_dropout: 0.3
+    dropout_ff: 0.3
+    dropout_attn: 0.3
+    n_heads: 2
+    p_sample_cutmix: 1.0
+    p_feature_cutmix: 0.3
+    p_sample_mixup: 1.0
+    p_feature_mixup: 1.0
+    alpha_mixup: 0.9
+    p_sample_jitter: 0.0
+    p_feature_jitter: 1.0
+    var_jitter: 0.1
+    encoder_norm: rms_norm
+    encoder_activation: swiglu
+    encoder_model: saint
+    n_numeric: 26
+    n_cat: 0
+    cats: []
+hyperparameters:
+  desc: null
+  value:
+    epochs: 1000
+    batch_size: 2048
+    temperature: 0.7
+    lambda_pt: 0.3
+    supervised_lr: 0.0001
+    unsupervised_lr: 0.001
+    decay: 0.001
+name:
+  desc: null
+  value: saint cicids2017
+script:
+  desc: null
+  value: train
+device:
+  desc: null
+  value: cuda:1
+project:
+  desc: null
+  value: saint_nids
+run_name:
+  desc: null
+  value: test_run
+log:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.6
+    cli_version: 0.15.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1686759380.656365
+    t:
+      1:
+      - 1
+      - 5
+      - 50
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 50
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.10.6
+      5: 0.15.4
+      8:
+      - 5

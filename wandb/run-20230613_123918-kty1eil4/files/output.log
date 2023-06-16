@@ -1,0 +1,9 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/ssl_experiments/main.py", line 22, in main
+    stats.log({'test_loss': x})
+TypeError: 'list' object is not callable
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+here
+dataset:
+  name: heofshfoseh

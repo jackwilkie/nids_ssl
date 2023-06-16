@@ -1,0 +1,45 @@
+epoch = 0  |  train_loss = 0.153200  |  val_loss = 0.152947  |  training_for: 1.79
+epoch = 1  |  train_loss = 0.136654  |  val_loss = 0.154589  |  training_for: 3.24
+epoch = 2  |  train_loss = 0.134571  |  val_loss = 0.154710  |  training_for: 4.69
+epoch = 3  |  train_loss = 0.133744  |  val_loss = 0.155201  |  training_for: 6.15
+epoch = 4  |  train_loss = 0.133394  |  val_loss = 0.155624  |  training_for: 7.60
+epoch = 5  |  train_loss = 0.133177  |  val_loss = 0.155876  |  training_for: 9.06
+epoch = 6  |  train_loss = 0.133087  |  val_loss = 0.156882  |  training_for: 10.51
+epoch = 7  |  train_loss = 0.132984  |  val_loss = 0.158048  |  training_for: 11.96
+epoch = 8  |  train_loss = 0.132908  |  val_loss = 0.157666  |  training_for: 13.40
+epoch = 9  |  train_loss = 0.132866  |  val_loss = 0.158623  |  training_for: 14.85
+epoch = 10  |  train_loss = 0.132833  |  val_loss = 0.158698  |  training_for: 16.44
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 127, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 114, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 144, in train
+    loss = loss_calc(model, batch)  #compute validation loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 46, in calc_loss
+    z_aug = model.feed_aug(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 141, in feed_aug
+    return self.encoder(self.latent_aug(self.embedding_layer(self.feature_aug(x))))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/augmentations.py", line 54, in forward
+    return self.augment(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/augmentations.py", line 109, in augment
+    x_shuffled = shuffle_batch(x)  # batch x d_model, generate batch with samples shuffled ( shuffles dim 0)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/augmentations.py", line 19, in shuffle_batch
+    return x[T.randperm(x.size(dim))]
+KeyboardInterrupt

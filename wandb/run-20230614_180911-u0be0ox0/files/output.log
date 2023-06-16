@@ -1,0 +1,95 @@
+epoch = 0  |  train_loss = 0.106256  |  val_loss = 0.097019  |  training_for: 1.48
+epoch = 1  |  train_loss = 0.106262  |  val_loss = 0.097010  |  training_for: 2.58
+epoch = 2  |  train_loss = 0.106197  |  val_loss = 0.096995  |  training_for: 3.67
+epoch = 3  |  train_loss = 0.106130  |  val_loss = 0.096973  |  training_for: 4.77
+epoch = 4  |  train_loss = 0.106025  |  val_loss = 0.096950  |  training_for: 5.88
+epoch = 5  |  train_loss = 0.105889  |  val_loss = 0.096914  |  training_for: 7.09
+epoch = 6  |  train_loss = 0.105747  |  val_loss = 0.096877  |  training_for: 8.20
+epoch = 7  |  train_loss = 0.105511  |  val_loss = 0.096827  |  training_for: 9.33
+epoch = 8  |  train_loss = 0.105318  |  val_loss = 0.096769  |  training_for: 10.42
+epoch = 9  |  train_loss = 0.105002  |  val_loss = 0.096689  |  training_for: 11.52
+epoch = 10  |  train_loss = 0.104675  |  val_loss = 0.096587  |  training_for: 12.61
+epoch = 11  |  train_loss = 0.104333  |  val_loss = 0.096457  |  training_for: 13.71
+epoch = 12  |  train_loss = 0.103887  |  val_loss = 0.096292  |  training_for: 14.79
+epoch = 13  |  train_loss = 0.103406  |  val_loss = 0.096089  |  training_for: 15.87
+epoch = 14  |  train_loss = 0.102743  |  val_loss = 0.095832  |  training_for: 16.98
+epoch = 15  |  train_loss = 0.102186  |  val_loss = 0.095498  |  training_for: 18.16
+epoch = 16  |  train_loss = 0.101455  |  val_loss = 0.095103  |  training_for: 19.26
+epoch = 17  |  train_loss = 0.100720  |  val_loss = 0.094627  |  training_for: 20.35
+epoch = 18  |  train_loss = 0.100006  |  val_loss = 0.094069  |  training_for: 21.44
+epoch = 19  |  train_loss = 0.099353  |  val_loss = 0.093360  |  training_for: 22.51
+epoch = 20  |  train_loss = 0.098674  |  val_loss = 0.092684  |  training_for: 23.61
+epoch = 21  |  train_loss = 0.098139  |  val_loss = 0.092493  |  training_for: 24.73
+epoch = 22  |  train_loss = 0.097614  |  val_loss = 0.092766  |  training_for: 25.93
+epoch = 23  |  train_loss = 0.097225  |  val_loss = 0.092927  |  training_for: 27.04
+epoch = 24  |  train_loss = 0.096750  |  val_loss = 0.092825  |  training_for: 28.14
+epoch = 25  |  train_loss = 0.096383  |  val_loss = 0.092513  |  training_for: 29.25
+epoch = 26  |  train_loss = 0.095958  |  val_loss = 0.092207  |  training_for: 30.34
+epoch = 27  |  train_loss = 0.095672  |  val_loss = 0.091610  |  training_for: 31.43
+epoch = 28  |  train_loss = 0.095335  |  val_loss = 0.091306  |  training_for: 32.53
+epoch = 29  |  train_loss = 0.095068  |  val_loss = 0.090995  |  training_for: 33.63
+epoch = 30  |  train_loss = 0.094799  |  val_loss = 0.090970  |  training_for: 34.75
+epoch = 31  |  train_loss = 0.094563  |  val_loss = 0.091048  |  training_for: 35.86
+epoch = 32  |  train_loss = 0.094370  |  val_loss = 0.091143  |  training_for: 37.08
+epoch = 33  |  train_loss = 0.094159  |  val_loss = 0.091097  |  training_for: 38.15
+epoch = 34  |  train_loss = 0.094010  |  val_loss = 0.090984  |  training_for: 39.25
+epoch = 35  |  train_loss = 0.093865  |  val_loss = 0.091066  |  training_for: 40.38
+epoch = 36  |  train_loss = 0.093775  |  val_loss = 0.091085  |  training_for: 41.52
+epoch = 37  |  train_loss = 0.093633  |  val_loss = 0.090919  |  training_for: 42.63
+epoch = 38  |  train_loss = 0.093510  |  val_loss = 0.090672  |  training_for: 43.71
+epoch = 39  |  train_loss = 0.093362  |  val_loss = 0.090770  |  training_for: 44.92
+epoch = 40  |  train_loss = 0.093287  |  val_loss = 0.090522  |  training_for: 46.01
+epoch = 41  |  train_loss = 0.093144  |  val_loss = 0.090175  |  training_for: 47.10
+epoch = 42  |  train_loss = 0.093047  |  val_loss = 0.090298  |  training_for: 48.25
+epoch = 43  |  train_loss = 0.092938  |  val_loss = 0.090725  |  training_for: 49.35
+epoch = 44  |  train_loss = 0.092793  |  val_loss = 0.090744  |  training_for: 50.44
+epoch = 45  |  train_loss = 0.092730  |  val_loss = 0.090444  |  training_for: 51.52
+epoch = 46  |  train_loss = 0.092643  |  val_loss = 0.090796  |  training_for: 52.64
+epoch = 47  |  train_loss = 0.092591  |  val_loss = 0.091133  |  training_for: 53.72
+epoch = 48  |  train_loss = 0.092441  |  val_loss = 0.091668  |  training_for: 54.83
+epoch = 49  |  train_loss = 0.092380  |  val_loss = 0.092280  |  training_for: 56.03
+epoch = 50  |  train_loss = 0.092313  |  val_loss = 0.092124  |  training_for: 57.14
+epoch = 51  |  train_loss = 0.092232  |  val_loss = 0.092281  |  training_for: 58.24
+epoch = 52  |  train_loss = 0.092140  |  val_loss = 0.092432  |  training_for: 59.38
+epoch = 53  |  train_loss = 0.092080  |  val_loss = 0.092662  |  training_for: 60.48
+epoch = 54  |  train_loss = 0.092023  |  val_loss = 0.092892  |  training_for: 61.57
+epoch = 55  |  train_loss = 0.091971  |  val_loss = 0.092914  |  training_for: 62.67
+epoch = 56  |  train_loss = 0.091874  |  val_loss = 0.092967  |  training_for: 63.86
+epoch = 57  |  train_loss = 0.091800  |  val_loss = 0.093073  |  training_for: 64.96
+epoch = 58  |  train_loss = 0.091745  |  val_loss = 0.093232  |  training_for: 66.05
+epoch = 59  |  train_loss = 0.091693  |  val_loss = 0.093352  |  training_for: 67.16
+epoch = 60  |  train_loss = 0.091630  |  val_loss = 0.093372  |  training_for: 68.24
+epoch = 61  |  train_loss = 0.091571  |  val_loss = 0.093297  |  training_for: 69.33
+epoch = 62  |  train_loss = 0.091523  |  val_loss = 0.093290  |  training_for: 70.44
+epoch = 63  |  train_loss = 0.091451  |  val_loss = 0.093112  |  training_for: 71.53
+epoch = 64  |  train_loss = 0.091399  |  val_loss = 0.093073  |  training_for: 72.64
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 132, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 118, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 150, in train
+    loss = loss_calc(model, batch)  #compute validation loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 48, in calc_loss
+    return self.forward(x, z, z_aug)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 41, in forward
+    return self.contrastive(z, z_aug) + (self.lambda_pt * self.reconstructive(z_aug, x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/reconstructive_loss.py", line 83, in forward
+    for i in range(self.n_cat, self.n_features): self.mse(self.num_layers[i](x_aug[:,i,:]).squeeze().float(), x_i[:,i].float())
+KeyboardInterrupt

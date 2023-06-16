@@ -1,0 +1,24 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 116, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 124, in train
+    loss = loss_calc(model, batch)  #compute training loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 45, in calc_loss
+    z = model.feed(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 138, in feed
+    return self.encoder(self.embedding_layer(x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/embedding.py", line 161, in forward
+    output.append(layer(x_i.unsqueeze(1).float()))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/embedding.py", line 74, in forward
+    return self.linear(x)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cuda:1! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

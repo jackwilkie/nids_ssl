@@ -1,0 +1,10 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 104, in main
+    scheduler = T.optim.lr_scheduler.CosineAnnealingLR(optimiser, config['hyperparameters']['epochs'], verbose=False)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 810, in __init__
+    super().__init__(optimizer, last_epoch, verbose)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 32, in __init__
+    raise TypeError('{} is not an Optimizer'.format(
+TypeError: NoamOpt is not an Optimizer
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

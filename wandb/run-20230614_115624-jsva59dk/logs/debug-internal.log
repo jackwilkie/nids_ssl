@@ -1,0 +1,169 @@
+2023-06-14 11:56:24,669 INFO    StreamThr :4174917 [internal.py:wandb_internal():86] W&B internal server running at pid: 4174917, started at: 2023-06-14 11:56:24.668973
+2023-06-14 11:56:24,673 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: status
+2023-06-14 11:56:24,676 INFO    WriterThread:4174917 [datastore.py:open_for_write():85] open: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/run-jsva59dk.wandb
+2023-06-14 11:56:24,677 DEBUG   SenderThread:4174917 [sender.py:send():369] send: header
+2023-06-14 11:56:24,677 DEBUG   SenderThread:4174917 [sender.py:send():369] send: run
+2023-06-14 11:56:25,100 INFO    SenderThread:4174917 [dir_watcher.py:__init__():211] watching files in: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files
+2023-06-14 11:56:25,101 INFO    SenderThread:4174917 [sender.py:_start_run_threads():1100] run started: jsva59dk with start time 1686740184.666936
+2023-06-14 11:56:25,101 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 11:56:25,101 INFO    SenderThread:4174917 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 11:56:25,110 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: check_version
+2023-06-14 11:56:25,111 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: check_version
+2023-06-14 11:56:25,271 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: run_start
+2023-06-14 11:56:25,286 DEBUG   HandlerThread:4174917 [system_info.py:__init__():31] System info init
+2023-06-14 11:56:25,286 DEBUG   HandlerThread:4174917 [system_info.py:__init__():46] System info init done
+2023-06-14 11:56:25,286 INFO    HandlerThread:4174917 [system_monitor.py:start():181] Starting system monitor
+2023-06-14 11:56:25,286 INFO    SystemMonitor:4174917 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-14 11:56:25,286 INFO    HandlerThread:4174917 [system_monitor.py:probe():201] Collecting system info
+2023-06-14 11:56:25,287 INFO    SystemMonitor:4174917 [interfaces.py:start():190] Started cpu monitoring
+2023-06-14 11:56:25,289 INFO    SystemMonitor:4174917 [interfaces.py:start():190] Started disk monitoring
+2023-06-14 11:56:25,290 INFO    SystemMonitor:4174917 [interfaces.py:start():190] Started gpu monitoring
+2023-06-14 11:56:25,291 INFO    SystemMonitor:4174917 [interfaces.py:start():190] Started memory monitoring
+2023-06-14 11:56:25,293 INFO    SystemMonitor:4174917 [interfaces.py:start():190] Started network monitoring
+2023-06-14 11:56:25,318 DEBUG   HandlerThread:4174917 [system_info.py:probe():195] Probing system
+2023-06-14 11:56:25,320 DEBUG   HandlerThread:4174917 [gitlib.py:_init_repo():53] git repository is invalid
+2023-06-14 11:56:25,320 DEBUG   HandlerThread:4174917 [system_info.py:probe():240] Probing system done
+2023-06-14 11:56:25,321 DEBUG   HandlerThread:4174917 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-43-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-06-14T10:56:25.318404', 'startedAt': '2023-06-14T10:56:24.657994', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/jwilkie/code_base/nids_ssl/main.py', 'codePath': 'main.py', 'host': 'arran', 'username': 'jwilkie', 'executable': '/home/jwilkie/pylabs/env/bin/python3', 'cpu_count': 10, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2610.05875, 'min': 1200.0, 'max': 4560.0}, 'cpu_freq_per_core': [{'current': 1199.961, 'min': 1200.0, 'max': 4500.0}, {'current': 1201.049, 'min': 1200.0, 'max': 4700.0}, {'current': 1500.026, 'min': 1200.0, 'max': 4500.0}, {'current': 1199.998, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.071, 'min': 1200.0, 'max': 4500.0}, {'current': 1200.542, 'min': 1200.0, 'max': 4700.0}, {'current': 1200.312, 'min': 1200.0, 'max': 4500.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4500.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.139, 'min': 1200.0, 'max': 4500.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4500.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4500.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4500.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4500.0}, {'current': 1200.594, 'min': 1200.0, 'max': 4500.0}, {'current': 1200.007, 'min': 1200.0, 'max': 4600.0}, {'current': 3700.0, 'min': 1200.0, 'max': 4500.0}], 'disk': {'total': 438.5479202270508, 'used': 221.05350494384766}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.49096298217773}}
+2023-06-14 11:56:25,321 INFO    HandlerThread:4174917 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-14 11:56:25,321 INFO    HandlerThread:4174917 [system_monitor.py:probe():214] Publishing system info
+2023-06-14 11:56:25,321 DEBUG   HandlerThread:4174917 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-14 11:56:25,322 DEBUG   HandlerThread:4174917 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-14 11:56:25,322 INFO    HandlerThread:4174917 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-14 11:56:25,326 DEBUG   SenderThread:4174917 [sender.py:send():369] send: files
+2023-06-14 11:56:25,327 INFO    SenderThread:4174917 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-14 11:56:25,336 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 11:56:25,336 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 11:56:25,590 DEBUG   SenderThread:4174917 [sender.py:send():369] send: telemetry
+2023-06-14 11:56:25,592 DEBUG   SenderThread:4174917 [sender.py:send():369] send: exit
+2023-06-14 11:56:25,592 INFO    SenderThread:4174917 [sender.py:send_exit():574] handling exit code: 1
+2023-06-14 11:56:25,593 INFO    SenderThread:4174917 [sender.py:send_exit():576] handling runtime: 0
+2023-06-14 11:56:25,593 INFO    SenderThread:4174917 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 11:56:25,593 INFO    SenderThread:4174917 [sender.py:send_exit():582] send defer
+2023-06-14 11:56:25,594 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,594 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-14 11:56:25,594 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,594 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-14 11:56:25,594 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 1
+2023-06-14 11:56:25,595 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,595 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-14 11:56:25,595 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,595 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-14 11:56:25,595 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 2
+2023-06-14 11:56:25,596 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,596 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-14 11:56:25,596 INFO    HandlerThread:4174917 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-14 11:56:25,596 DEBUG   SystemMonitor:4174917 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-14 11:56:25,596 INFO    HandlerThread:4174917 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-14 11:56:25,597 DEBUG   SystemMonitor:4174917 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-14 11:56:25,597 INFO    HandlerThread:4174917 [interfaces.py:finish():202] Joined disk monitor
+2023-06-14 11:56:25,597 DEBUG   SystemMonitor:4174917 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-14 11:56:25,728 INFO    HandlerThread:4174917 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-14 11:56:25,728 INFO    HandlerThread:4174917 [interfaces.py:finish():202] Joined memory monitor
+2023-06-14 11:56:25,728 INFO    HandlerThread:4174917 [interfaces.py:finish():202] Joined network monitor
+2023-06-14 11:56:25,729 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,729 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-14 11:56:25,729 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 3
+2023-06-14 11:56:25,729 DEBUG   SenderThread:4174917 [sender.py:send():369] send: stats
+2023-06-14 11:56:25,730 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,730 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-14 11:56:25,730 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,731 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-14 11:56:25,731 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 4
+2023-06-14 11:56:25,731 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,731 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-14 11:56:25,731 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,731 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-14 11:56:25,731 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 5
+2023-06-14 11:56:25,731 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,732 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-14 11:56:25,732 DEBUG   SenderThread:4174917 [sender.py:send():369] send: summary
+2023-06-14 11:56:25,732 INFO    SenderThread:4174917 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 11:56:25,733 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,733 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-14 11:56:25,733 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 6
+2023-06-14 11:56:25,733 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:25,733 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-14 11:56:25,733 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:25,734 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-14 11:56:25,739 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 11:56:25,957 INFO    wandb-upload_0:4174917 [upload_job.py:push():133] Uploaded file /tmp/tmphdssg46mwandb/moxhhlbz-wandb-metadata.json
+2023-06-14 11:56:26,045 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 7
+2023-06-14 11:56:26,046 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:26,046 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-14 11:56:26,046 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:26,047 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-14 11:56:26,111 INFO    Thread-12 :4174917 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/config.yaml
+2023-06-14 11:56:26,111 INFO    Thread-12 :4174917 [dir_watcher.py:_on_file_created():272] file/dir created: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/output.log
+2023-06-14 11:56:26,111 INFO    Thread-12 :4174917 [dir_watcher.py:_on_file_created():272] file/dir created: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/requirements.txt
+2023-06-14 11:56:26,112 INFO    Thread-12 :4174917 [dir_watcher.py:_on_file_created():272] file/dir created: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/wandb-metadata.json
+2023-06-14 11:56:26,112 INFO    Thread-12 :4174917 [dir_watcher.py:_on_file_created():272] file/dir created: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/wandb-summary.json
+2023-06-14 11:56:26,518 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-14 11:56:27,606 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 8
+2023-06-14 11:56:27,606 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: poll_exit
+2023-06-14 11:56:27,606 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:27,607 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-14 11:56:27,607 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:27,607 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-14 11:56:27,607 INFO    SenderThread:4174917 [job_builder.py:build():232] Attempting to build job artifact
+2023-06-14 11:56:27,608 INFO    SenderThread:4174917 [job_builder.py:build():266] no source found
+2023-06-14 11:56:27,608 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 9
+2023-06-14 11:56:27,608 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:27,608 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-14 11:56:27,609 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:27,609 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-14 11:56:27,609 INFO    SenderThread:4174917 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-14 11:56:28,109 INFO    Thread-12 :4174917 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/output.log
+2023-06-14 11:56:28,110 INFO    SenderThread:4174917 [dir_watcher.py:finish():389] scan: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files
+2023-06-14 11:56:28,110 INFO    SenderThread:4174917 [dir_watcher.py:finish():403] scan save: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/requirements.txt requirements.txt
+2023-06-14 11:56:28,110 INFO    SenderThread:4174917 [dir_watcher.py:finish():403] scan save: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/config.yaml config.yaml
+2023-06-14 11:56:28,111 INFO    SenderThread:4174917 [dir_watcher.py:finish():403] scan save: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/wandb-metadata.json wandb-metadata.json
+2023-06-14 11:56:28,111 INFO    SenderThread:4174917 [dir_watcher.py:finish():403] scan save: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/output.log output.log
+2023-06-14 11:56:28,111 INFO    SenderThread:4174917 [dir_watcher.py:finish():403] scan save: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/wandb-summary.json wandb-summary.json
+2023-06-14 11:56:28,112 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 10
+2023-06-14 11:56:28,117 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:28,117 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-14 11:56:28,123 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:28,123 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-14 11:56:28,124 INFO    SenderThread:4174917 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-14 11:56:28,623 INFO    wandb-upload_0:4174917 [upload_job.py:push():133] Uploaded file /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/requirements.txt
+2023-06-14 11:56:28,758 INFO    wandb-upload_1:4174917 [upload_job.py:push():133] Uploaded file /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/config.yaml
+2023-06-14 11:56:28,988 INFO    wandb-upload_3:4174917 [upload_job.py:push():133] Uploaded file /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/wandb-summary.json
+2023-06-14 11:56:28,989 INFO    wandb-upload_2:4174917 [upload_job.py:push():133] Uploaded file /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/files/output.log
+2023-06-14 11:56:29,193 INFO    Thread-11 (_thread_body):4174917 [sender.py:transition_state():602] send defer: 11
+2023-06-14 11:56:29,194 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:29,194 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-14 11:56:29,195 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:29,195 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-14 11:56:29,195 INFO    SenderThread:4174917 [file_pusher.py:join():164] waiting for file pusher
+2023-06-14 11:56:29,195 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 12
+2023-06-14 11:56:29,195 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:29,195 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-14 11:56:29,196 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:29,196 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-14 11:56:29,363 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 13
+2023-06-14 11:56:29,363 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:29,364 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-14 11:56:29,364 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:29,364 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-14 11:56:29,364 INFO    SenderThread:4174917 [sender.py:transition_state():602] send defer: 14
+2023-06-14 11:56:29,365 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: defer
+2023-06-14 11:56:29,365 INFO    HandlerThread:4174917 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-14 11:56:29,366 DEBUG   SenderThread:4174917 [sender.py:send():369] send: final
+2023-06-14 11:56:29,366 DEBUG   SenderThread:4174917 [sender.py:send():369] send: footer
+2023-06-14 11:56:29,366 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: defer
+2023-06-14 11:56:29,366 INFO    SenderThread:4174917 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-14 11:56:29,367 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-14 11:56:29,368 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: poll_exit
+2023-06-14 11:56:29,369 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: server_info
+2023-06-14 11:56:29,370 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-14 11:56:29,370 DEBUG   SenderThread:4174917 [sender.py:send_request():396] send_request: server_info
+2023-06-14 11:56:29,374 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-14 11:56:29,628 INFO    MainThread:4174917 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-14 11:56:29,628 INFO    MainThread:4174917 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-14 11:56:29,628 INFO    MainThread:4174917 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-06-14 11:56:29,629 DEBUG   HandlerThread:4174917 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-14 11:56:29,629 INFO    HandlerThread:4174917 [handler.py:finish():854] shutting down handler
+2023-06-14 11:56:30,370 INFO    WriterThread:4174917 [datastore.py:close():298] close: /home/jwilkie/code_base/nids_ssl/wandb/run-20230614_115624-jsva59dk/run-jsva59dk.wandb
+2023-06-14 11:56:30,628 INFO    SenderThread:4174917 [sender.py:finish():1526] shutting down sender
+2023-06-14 11:56:30,628 INFO    SenderThread:4174917 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-14 11:56:30,628 INFO    SenderThread:4174917 [file_pusher.py:join():164] waiting for file pusher

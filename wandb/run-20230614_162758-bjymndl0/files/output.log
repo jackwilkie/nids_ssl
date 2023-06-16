@@ -1,0 +1,67 @@
+epoch: 0
+Memory Allocated: 19602944
+Max Memory Allocated: 19602944
+epoch = 0  |  train_loss = 0.176358  |  val_loss = 0.173948  |  training_for: 1.77
+epoch: 1
+Memory Allocated: 77421056
+Max Memory Allocated: 319610880
+epoch = 1  |  train_loss = 0.174214  |  val_loss = 0.172419  |  training_for: 3.18
+epoch: 2
+Memory Allocated: 117260800
+Max Memory Allocated: 360343552
+epoch = 2  |  train_loss = 0.172070  |  val_loss = 0.170747  |  training_for: 4.60
+epoch: 3
+Memory Allocated: 155380224
+Max Memory Allocated: 397667328
+epoch = 3  |  train_loss = 0.170059  |  val_loss = 0.169080  |  training_for: 6.04
+epoch: 4
+Memory Allocated: 193290752
+Max Memory Allocated: 436442112
+epoch = 4  |  train_loss = 0.168000  |  val_loss = 0.167264  |  training_for: 7.45
+epoch: 5
+Memory Allocated: 234042880
+Max Memory Allocated: 473428992
+epoch = 5  |  train_loss = 0.165825  |  val_loss = 0.164796  |  training_for: 8.88
+epoch: 6
+Memory Allocated: 272918016
+Max Memory Allocated: 514495488
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 130, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 116, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 149, in train
+    loss = loss_calc(model, batch)  #compute validation loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 48, in calc_loss
+    return self.forward(x, z, z_aug)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 41, in forward
+    return self.contrastive(z, z_aug) + (self.lambda_pt * self.reconstructive(z_aug, x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/reconstructive_loss.py", line 83, in forward
+    for i in range(self.n_cat, self.n_features): self.mse(self.num_layers[i](x_aug[:,i,:]).squeeze().float(), x_i[:,i].float())
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 103, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/functional.py", line 1457, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

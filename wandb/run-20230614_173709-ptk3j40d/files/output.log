@@ -1,0 +1,38 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 117, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 124, in train
+    loss = loss_calc(model, batch)  #compute training loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 45, in calc_loss
+    z = model.feed(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 138, in feed
+    return self.encoder(self.embedding_layer(x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 55, in forward
+    x = layer(x)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 104, in forward
+    return self.sublayers[1](x, self.feed_forward)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/architecture.py", line 45, in forward
+    return x + self.dropout(sublayer(self.norm(x)))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/architecture.py", line 135, in forward
+    return self.w2(self.dropout(self.activation(self.w1(x))))  # apply forward pass
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/utils/activations.py", line 36, in forward
+    return x * self.activation(gates)
+  File "/home/jwilkie/code_base/packages/utils/activations.py", line 54, in activation
+    return F.SiLu(x)
+AttributeError: module 'torch.nn.functional' has no attribute 'SiLu'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

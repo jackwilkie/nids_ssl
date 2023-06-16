@@ -1,0 +1,161 @@
+epoch: 0
+Memory Allocated: 19602944
+Max Memory Allocated: 19602944
+epoch = 0  |  train_loss = 0.171625  |  val_loss = 0.170463  |  training_for: 1.76
+epoch: 1
+Memory Allocated: 77421056
+Max Memory Allocated: 319610880
+epoch = 1  |  train_loss = 0.168312  |  val_loss = 0.167783  |  training_for: 3.18
+epoch: 2
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 2  |  train_loss = 0.165106  |  val_loss = 0.165076  |  training_for: 4.60
+epoch: 3
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 3  |  train_loss = 0.162162  |  val_loss = 0.163038  |  training_for: 6.01
+epoch: 4
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 4  |  train_loss = 0.159761  |  val_loss = 0.161800  |  training_for: 7.44
+epoch: 5
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 5  |  train_loss = 0.157677  |  val_loss = 0.161600  |  training_for: 8.86
+epoch: 6
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 6  |  train_loss = 0.155941  |  val_loss = 0.161614  |  training_for: 10.29
+epoch: 7
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 7  |  train_loss = 0.154610  |  val_loss = 0.162238  |  training_for: 11.70
+epoch: 8
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 8  |  train_loss = 0.153576  |  val_loss = 0.163136  |  training_for: 13.13
+epoch: 9
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 9  |  train_loss = 0.152705  |  val_loss = 0.163448  |  training_for: 14.54
+epoch: 10
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 10  |  train_loss = 0.151987  |  val_loss = 0.163565  |  training_for: 16.04
+epoch: 11
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 11  |  train_loss = 0.151404  |  val_loss = 0.163880  |  training_for: 17.48
+epoch: 12
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 12  |  train_loss = 0.150900  |  val_loss = 0.164146  |  training_for: 18.92
+epoch: 13
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 13  |  train_loss = 0.150476  |  val_loss = 0.164386  |  training_for: 20.39
+epoch: 14
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 14  |  train_loss = 0.150136  |  val_loss = 0.164899  |  training_for: 21.81
+epoch: 15
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 15  |  train_loss = 0.149854  |  val_loss = 0.165149  |  training_for: 23.22
+epoch: 16
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 16  |  train_loss = 0.149593  |  val_loss = 0.165483  |  training_for: 24.64
+epoch: 17
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 17  |  train_loss = 0.149408  |  val_loss = 0.165136  |  training_for: 26.07
+epoch: 18
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 18  |  train_loss = 0.149279  |  val_loss = 0.164992  |  training_for: 27.49
+epoch: 19
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 19  |  train_loss = 0.149132  |  val_loss = 0.164877  |  training_for: 28.90
+epoch: 20
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 20  |  train_loss = 0.149038  |  val_loss = 0.164763  |  training_for: 30.34
+epoch: 21
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 21  |  train_loss = 0.148945  |  val_loss = 0.164479  |  training_for: 31.74
+epoch: 22
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 22  |  train_loss = 0.148896  |  val_loss = 0.164509  |  training_for: 33.16
+epoch: 23
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 23  |  train_loss = 0.148830  |  val_loss = 0.164101  |  training_for: 34.67
+epoch: 24
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 24  |  train_loss = 0.148749  |  val_loss = 0.164218  |  training_for: 36.07
+epoch: 25
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 25  |  train_loss = 0.148728  |  val_loss = 0.163996  |  training_for: 37.49
+epoch: 26
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 26  |  train_loss = 0.148694  |  val_loss = 0.164009  |  training_for: 38.92
+epoch: 27
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 27  |  train_loss = 0.148641  |  val_loss = 0.163804  |  training_for: 40.33
+epoch: 28
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 28  |  train_loss = 0.148619  |  val_loss = 0.163824  |  training_for: 41.74
+epoch: 29
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+epoch = 29  |  train_loss = 0.148587  |  val_loss = 0.163576  |  training_for: 43.16
+epoch: 30
+Memory Allocated: 75696640
+Max Memory Allocated: 359347712
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 130, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 116, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 123, in train
+    loss = loss_calc(model, batch)  #compute training loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 45, in calc_loss
+    z = model.feed(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 138, in feed
+    return self.encoder(self.embedding_layer(x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/encoders.py", line 57, in forward
+    if self.norm_output: x = self.norm(x) # normalise output if required
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/custom_transformers/normalisation.py", line 59, in forward
+    norm_x = x.norm(2, dim = -1, keepdim = True)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/_tensor.py", line 647, in norm
+    return torch.norm(self, p, dim, keepdim, dtype=dtype)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/functional.py", line 1517, in norm
+    return torch.linalg.vector_norm(input, _p, _dim, keepdim, dtype=dtype)
+KeyboardInterrupt

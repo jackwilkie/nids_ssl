@@ -1,0 +1,10 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 108, in main
+    train(model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 118, in train
+    loss = loss_calc(model, batch)  #compute training loss
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+TypeError: CompositeLoss.forward() missing 1 required positional argument: 'z_aug'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,60 @@
+epoch = 0  |  train_loss = 0.161592  |  val_loss = 0.157948  |  training_for: 1.79
+epoch = 1  |  train_loss = 0.150911  |  val_loss = 0.156043  |  training_for: 3.24
+epoch = 2  |  train_loss = 0.149345  |  val_loss = 0.157932  |  training_for: 4.67
+epoch = 3  |  train_loss = 0.148758  |  val_loss = 0.158291  |  training_for: 6.11
+epoch = 4  |  train_loss = 0.148400  |  val_loss = 0.158067  |  training_for: 7.56
+epoch = 5  |  train_loss = 0.148132  |  val_loss = 0.159152  |  training_for: 9.00
+epoch = 6  |  train_loss = 0.148007  |  val_loss = 0.159532  |  training_for: 10.44
+epoch = 7  |  train_loss = 0.147942  |  val_loss = 0.160342  |  training_for: 11.88
+epoch = 8  |  train_loss = 0.147948  |  val_loss = 0.159635  |  training_for: 13.33
+epoch = 9  |  train_loss = 0.147916  |  val_loss = 0.159510  |  training_for: 14.78
+epoch = 10  |  train_loss = 0.147896  |  val_loss = 0.159775  |  training_for: 16.30
+epoch = 11  |  train_loss = 0.147875  |  val_loss = 0.159853  |  training_for: 17.74
+epoch = 12  |  train_loss = 0.147825  |  val_loss = 0.158968  |  training_for: 19.18
+epoch = 13  |  train_loss = 0.147794  |  val_loss = 0.160465  |  training_for: 20.62
+epoch = 14  |  train_loss = 0.147727  |  val_loss = 0.160480  |  training_for: 22.05
+epoch = 15  |  train_loss = 0.147687  |  val_loss = 0.160255  |  training_for: 23.50
+epoch = 16  |  train_loss = 0.147670  |  val_loss = 0.160326  |  training_for: 24.96
+epoch = 17  |  train_loss = 0.147686  |  val_loss = 0.161314  |  training_for: 26.39
+epoch = 18  |  train_loss = 0.147739  |  val_loss = 0.161062  |  training_for: 27.83
+epoch = 19  |  train_loss = 0.147707  |  val_loss = 0.161215  |  training_for: 29.27
+epoch = 20  |  train_loss = 0.147649  |  val_loss = 0.159980  |  training_for: 30.71
+epoch = 21  |  train_loss = 0.147622  |  val_loss = 0.161403  |  training_for: 32.14
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 127, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 114, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 144, in train
+    loss = loss_calc(model, batch)  #compute validation loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 48, in calc_loss
+    return self.forward(x, z, z_aug)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 41, in forward
+    return self.contrastive(z, z_aug) + (self.lambda_pt * self.reconstructive(z_aug, x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/reconstructive_loss.py", line 83, in forward
+    for i in range(self.n_cat, self.n_features): self.mse(self.num_layers[i](x_aug[:,i,:]).squeeze().float(), x_i[:,i].float())
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

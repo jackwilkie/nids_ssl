@@ -1,0 +1,125 @@
+epoch = 0  |  train_loss = 0.107911  |  val_loss = 0.096486  |  training_for: 1.35
+epoch = 1  |  train_loss = 0.107900  |  val_loss = 0.096470  |  training_for: 2.33
+epoch = 2  |  train_loss = 0.107885  |  val_loss = 0.096451  |  training_for: 3.32
+epoch = 3  |  train_loss = 0.107818  |  val_loss = 0.096423  |  training_for: 4.29
+epoch = 4  |  train_loss = 0.107786  |  val_loss = 0.096381  |  training_for: 5.27
+epoch = 5  |  train_loss = 0.107721  |  val_loss = 0.096333  |  training_for: 6.25
+epoch = 6  |  train_loss = 0.107631  |  val_loss = 0.096270  |  training_for: 7.23
+epoch = 7  |  train_loss = 0.107568  |  val_loss = 0.096197  |  training_for: 8.19
+epoch = 8  |  train_loss = 0.107432  |  val_loss = 0.096109  |  training_for: 9.26
+epoch = 9  |  train_loss = 0.107275  |  val_loss = 0.096002  |  training_for: 10.25
+epoch = 10  |  train_loss = 0.107092  |  val_loss = 0.095882  |  training_for: 11.23
+epoch = 11  |  train_loss = 0.106915  |  val_loss = 0.095731  |  training_for: 12.21
+epoch = 12  |  train_loss = 0.106670  |  val_loss = 0.095559  |  training_for: 13.20
+epoch = 13  |  train_loss = 0.106368  |  val_loss = 0.095356  |  training_for: 14.18
+epoch = 14  |  train_loss = 0.106061  |  val_loss = 0.095119  |  training_for: 15.17
+epoch = 15  |  train_loss = 0.105619  |  val_loss = 0.094831  |  training_for: 16.25
+epoch = 16  |  train_loss = 0.105124  |  val_loss = 0.094497  |  training_for: 17.23
+epoch = 17  |  train_loss = 0.104569  |  val_loss = 0.094098  |  training_for: 18.21
+epoch = 18  |  train_loss = 0.103898  |  val_loss = 0.093634  |  training_for: 19.19
+epoch = 19  |  train_loss = 0.103129  |  val_loss = 0.093094  |  training_for: 20.19
+epoch = 20  |  train_loss = 0.102258  |  val_loss = 0.092481  |  training_for: 21.16
+epoch = 21  |  train_loss = 0.101369  |  val_loss = 0.091815  |  training_for: 22.15
+epoch = 22  |  train_loss = 0.100433  |  val_loss = 0.091164  |  training_for: 23.14
+epoch = 23  |  train_loss = 0.099472  |  val_loss = 0.090579  |  training_for: 24.12
+epoch = 24  |  train_loss = 0.098539  |  val_loss = 0.090048  |  training_for: 25.11
+epoch = 25  |  train_loss = 0.097613  |  val_loss = 0.089537  |  training_for: 26.22
+epoch = 26  |  train_loss = 0.096720  |  val_loss = 0.089045  |  training_for: 27.20
+epoch = 27  |  train_loss = 0.095889  |  val_loss = 0.088608  |  training_for: 28.19
+epoch = 28  |  train_loss = 0.095136  |  val_loss = 0.088270  |  training_for: 29.17
+epoch = 29  |  train_loss = 0.094503  |  val_loss = 0.088111  |  training_for: 30.17
+epoch = 30  |  train_loss = 0.093981  |  val_loss = 0.088061  |  training_for: 31.16
+epoch = 31  |  train_loss = 0.093552  |  val_loss = 0.088099  |  training_for: 32.14
+epoch = 32  |  train_loss = 0.093188  |  val_loss = 0.088094  |  training_for: 33.14
+epoch = 33  |  train_loss = 0.092888  |  val_loss = 0.087995  |  training_for: 34.13
+epoch = 34  |  train_loss = 0.092622  |  val_loss = 0.087866  |  training_for: 35.12
+epoch = 35  |  train_loss = 0.092407  |  val_loss = 0.087774  |  training_for: 36.10
+epoch = 36  |  train_loss = 0.092233  |  val_loss = 0.087792  |  training_for: 37.19
+epoch = 37  |  train_loss = 0.092068  |  val_loss = 0.087857  |  training_for: 38.18
+epoch = 38  |  train_loss = 0.091941  |  val_loss = 0.087928  |  training_for: 39.17
+epoch = 39  |  train_loss = 0.091820  |  val_loss = 0.088004  |  training_for: 40.14
+epoch = 40  |  train_loss = 0.091728  |  val_loss = 0.088006  |  training_for: 41.14
+epoch = 41  |  train_loss = 0.091646  |  val_loss = 0.088071  |  training_for: 42.12
+epoch = 42  |  train_loss = 0.091552  |  val_loss = 0.088140  |  training_for: 43.13
+epoch = 43  |  train_loss = 0.091480  |  val_loss = 0.088187  |  training_for: 44.23
+epoch = 44  |  train_loss = 0.091406  |  val_loss = 0.088299  |  training_for: 45.22
+epoch = 45  |  train_loss = 0.091349  |  val_loss = 0.088421  |  training_for: 46.25
+epoch = 46  |  train_loss = 0.091297  |  val_loss = 0.088484  |  training_for: 47.24
+epoch = 47  |  train_loss = 0.091249  |  val_loss = 0.088467  |  training_for: 48.23
+epoch = 48  |  train_loss = 0.091197  |  val_loss = 0.088500  |  training_for: 49.23
+epoch = 49  |  train_loss = 0.091157  |  val_loss = 0.088495  |  training_for: 50.21
+epoch = 50  |  train_loss = 0.091108  |  val_loss = 0.088656  |  training_for: 51.20
+epoch = 51  |  train_loss = 0.091065  |  val_loss = 0.088538  |  training_for: 52.18
+epoch = 52  |  train_loss = 0.091019  |  val_loss = 0.088502  |  training_for: 53.18
+epoch = 53  |  train_loss = 0.090982  |  val_loss = 0.088684  |  training_for: 54.19
+epoch = 54  |  train_loss = 0.090952  |  val_loss = 0.088229  |  training_for: 55.26
+epoch = 55  |  train_loss = 0.090915  |  val_loss = 0.088575  |  training_for: 56.26
+epoch = 56  |  train_loss = 0.090864  |  val_loss = 0.088529  |  training_for: 57.24
+epoch = 57  |  train_loss = 0.090827  |  val_loss = 0.088215  |  training_for: 58.23
+epoch = 58  |  train_loss = 0.090775  |  val_loss = 0.088483  |  training_for: 59.21
+epoch = 59  |  train_loss = 0.090733  |  val_loss = 0.088183  |  training_for: 60.20
+epoch = 60  |  train_loss = 0.090676  |  val_loss = 0.088341  |  training_for: 61.19
+epoch = 61  |  train_loss = 0.090643  |  val_loss = 0.088319  |  training_for: 62.27
+epoch = 62  |  train_loss = 0.090614  |  val_loss = 0.088345  |  training_for: 63.28
+epoch = 63  |  train_loss = 0.090572  |  val_loss = 0.088552  |  training_for: 64.26
+epoch = 64  |  train_loss = 0.090552  |  val_loss = 0.088364  |  training_for: 65.24
+epoch = 65  |  train_loss = 0.090534  |  val_loss = 0.088223  |  training_for: 66.23
+epoch = 66  |  train_loss = 0.090508  |  val_loss = 0.088499  |  training_for: 67.22
+epoch = 67  |  train_loss = 0.090479  |  val_loss = 0.088373  |  training_for: 68.20
+epoch = 68  |  train_loss = 0.090457  |  val_loss = 0.088400  |  training_for: 69.23
+epoch = 69  |  train_loss = 0.090438  |  val_loss = 0.088324  |  training_for: 70.22
+epoch = 70  |  train_loss = 0.090420  |  val_loss = 0.088387  |  training_for: 71.22
+epoch = 71  |  train_loss = 0.090397  |  val_loss = 0.088387  |  training_for: 72.21
+epoch = 72  |  train_loss = 0.090387  |  val_loss = 0.088235  |  training_for: 73.30
+epoch = 73  |  train_loss = 0.090371  |  val_loss = 0.088595  |  training_for: 74.32
+epoch = 74  |  train_loss = 0.090364  |  val_loss = 0.088347  |  training_for: 75.31
+epoch = 75  |  train_loss = 0.090366  |  val_loss = 0.088288  |  training_for: 76.30
+epoch = 76  |  train_loss = 0.090349  |  val_loss = 0.088521  |  training_for: 77.27
+epoch = 77  |  train_loss = 0.090336  |  val_loss = 0.088327  |  training_for: 78.25
+epoch = 78  |  train_loss = 0.090327  |  val_loss = 0.088550  |  training_for: 79.22
+epoch = 79  |  train_loss = 0.090312  |  val_loss = 0.088486  |  training_for: 80.29
+epoch = 80  |  train_loss = 0.090303  |  val_loss = 0.088512  |  training_for: 81.28
+epoch = 81  |  train_loss = 0.090296  |  val_loss = 0.088407  |  training_for: 82.26
+epoch = 82  |  train_loss = 0.090292  |  val_loss = 0.088587  |  training_for: 83.24
+epoch = 83  |  train_loss = 0.090283  |  val_loss = 0.088717  |  training_for: 84.20
+epoch = 84  |  train_loss = 0.090282  |  val_loss = 0.088590  |  training_for: 85.17
+epoch = 85  |  train_loss = 0.090287  |  val_loss = 0.088427  |  training_for: 86.16
+epoch = 86  |  train_loss = 0.090271  |  val_loss = 0.088660  |  training_for: 87.13
+epoch = 87  |  train_loss = 0.090265  |  val_loss = 0.088667  |  training_for: 88.11
+epoch = 88  |  train_loss = 0.090249  |  val_loss = 0.088367  |  training_for: 89.09
+epoch = 89  |  train_loss = 0.090243  |  val_loss = 0.088777  |  training_for: 90.07
+epoch = 90  |  train_loss = 0.090242  |  val_loss = 0.088301  |  training_for: 91.15
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 132, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 118, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 130, in train
+    optimiser.step()            # update weights
+  File "/home/jwilkie/code_base/packages/utils/optimisers.py", line 45, in step
+    self.optimizer.step()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/adamw.py", line 171, in step
+    adamw(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/adamw.py", line 321, in adamw
+    func(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/optim/adamw.py", line 493, in _multi_tensor_adamw
+    torch._foreach_add_(device_state_steps, 1)
+KeyboardInterrupt

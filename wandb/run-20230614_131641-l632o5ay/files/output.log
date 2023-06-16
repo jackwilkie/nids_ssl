@@ -1,0 +1,59 @@
+epoch = 0  |  train_loss = 0.162200  |  val_loss = 0.155674  |  training_for: 0.75
+epoch = 1  |  train_loss = 0.151461  |  val_loss = 0.155948  |  training_for: 1.13
+epoch = 2  |  train_loss = 0.149706  |  val_loss = 0.156554  |  training_for: 1.51
+epoch = 3  |  train_loss = 0.148947  |  val_loss = 0.158688  |  training_for: 1.90
+epoch = 4  |  train_loss = 0.148544  |  val_loss = 0.157196  |  training_for: 2.26
+epoch = 5  |  train_loss = 0.148299  |  val_loss = 0.157474  |  training_for: 2.64
+epoch = 6  |  train_loss = 0.148131  |  val_loss = 0.158820  |  training_for: 3.03
+epoch = 7  |  train_loss = 0.148089  |  val_loss = 0.160857  |  training_for: 3.41
+epoch = 8  |  train_loss = 0.148085  |  val_loss = 0.159399  |  training_for: 3.79
+epoch = 9  |  train_loss = 0.148008  |  val_loss = 0.159454  |  training_for: 4.18
+epoch = 10  |  train_loss = 0.147922  |  val_loss = 0.159181  |  training_for: 4.57
+epoch = 11  |  train_loss = 0.147875  |  val_loss = 0.159982  |  training_for: 4.96
+epoch = 12  |  train_loss = 0.147852  |  val_loss = 0.160375  |  training_for: 5.34
+epoch = 13  |  train_loss = 0.147846  |  val_loss = 0.159728  |  training_for: 5.73
+epoch = 14  |  train_loss = 0.147807  |  val_loss = 0.160767  |  training_for: 6.12
+epoch = 15  |  train_loss = 0.147812  |  val_loss = 0.160057  |  training_for: 6.54
+epoch = 16  |  train_loss = 0.147806  |  val_loss = 0.160567  |  training_for: 6.93
+epoch = 17  |  train_loss = 0.147794  |  val_loss = 0.160411  |  training_for: 7.31
+epoch = 18  |  train_loss = 0.147752  |  val_loss = 0.161830  |  training_for: 7.70
+epoch = 19  |  train_loss = 0.147757  |  val_loss = 0.161417  |  training_for: 8.09
+epoch = 20  |  train_loss = 0.147704  |  val_loss = 0.160405  |  training_for: 8.47
+epoch = 21  |  train_loss = 0.147700  |  val_loss = 0.160150  |  training_for: 8.86
+epoch = 22  |  train_loss = 0.147729  |  val_loss = 0.161315  |  training_for: 9.24
+epoch = 23  |  train_loss = 0.147732  |  val_loss = 0.160641  |  training_for: 9.62
+epoch = 24  |  train_loss = 0.147761  |  val_loss = 0.162614  |  training_for: 10.01
+epoch = 25  |  train_loss = 0.147749  |  val_loss = 0.160545  |  training_for: 10.40
+epoch = 26  |  train_loss = 0.147701  |  val_loss = 0.162116  |  training_for: 10.78
+epoch = 27  |  train_loss = 0.147708  |  val_loss = 0.161022  |  training_for: 11.16
+epoch = 28  |  train_loss = 0.147705  |  val_loss = 0.161761  |  training_for: 11.54
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 127, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 114, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 114, in train
+    for batch_num, batch in enumerate(train_dl):
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 678, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+KeyboardInterrupt

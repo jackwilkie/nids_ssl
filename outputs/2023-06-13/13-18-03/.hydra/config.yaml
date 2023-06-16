@@ -1,0 +1,4 @@
+dataset:
+  name: cicids2017
+  path: ~/defspiofm
+name: test run

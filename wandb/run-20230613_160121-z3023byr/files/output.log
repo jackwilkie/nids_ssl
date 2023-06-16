@@ -1,0 +1,8 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 98, in main
+    loss = composite_loss.make_composite_loss(
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 75, in make_composite_loss
+    contrastive= make_contrastive_loss(
+TypeError: make_contrastive_loss() got an unexpected keyword argument 'd_model'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

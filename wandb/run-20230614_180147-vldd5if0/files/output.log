@@ -1,0 +1,12 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 118, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 130, in train
+    optimiser.step()            # update weights
+  File "/home/jwilkie/code_base/packages/utils/optimisers.py", line 39, in step
+    rate = self.rate()
+  File "/home/jwilkie/code_base/packages/utils/optimisers.py", line 56, in rate
+    return self.factor * (self.model_size ** (-0.5) * min)
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

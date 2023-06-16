@@ -1,0 +1,189 @@
+epoch: 0
+Memory Allocated: 19619840
+Max Memory Allocated: 19619840
+epoch = 0  |  train_loss = 0.175158  |  val_loss = 0.174958  |  training_for: 2.18
+epoch: 1
+Memory Allocated: 113291264
+Max Memory Allocated: 578799104
+epoch = 1  |  train_loss = 0.170842  |  val_loss = 0.173266  |  training_for: 3.99
+epoch: 2
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 2  |  train_loss = 0.166716  |  val_loss = 0.170448  |  training_for: 5.80
+epoch: 3
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 3  |  train_loss = 0.162804  |  val_loss = 0.166037  |  training_for: 7.60
+epoch: 4
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 4  |  train_loss = 0.160044  |  val_loss = 0.165443  |  training_for: 9.48
+epoch: 5
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 5  |  train_loss = 0.157980  |  val_loss = 0.165156  |  training_for: 11.31
+epoch: 6
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 6  |  train_loss = 0.156497  |  val_loss = 0.166198  |  training_for: 13.13
+epoch: 7
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 7  |  train_loss = 0.155386  |  val_loss = 0.166864  |  training_for: 14.97
+epoch: 8
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 8  |  train_loss = 0.154408  |  val_loss = 0.166737  |  training_for: 16.79
+epoch: 9
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 9  |  train_loss = 0.153529  |  val_loss = 0.166363  |  training_for: 18.70
+epoch: 10
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 10  |  train_loss = 0.152930  |  val_loss = 0.166049  |  training_for: 20.54
+epoch: 11
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 11  |  train_loss = 0.152427  |  val_loss = 0.165576  |  training_for: 22.37
+epoch: 12
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 12  |  train_loss = 0.152020  |  val_loss = 0.164887  |  training_for: 24.18
+epoch: 13
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 13  |  train_loss = 0.151667  |  val_loss = 0.163763  |  training_for: 26.01
+epoch: 14
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 14  |  train_loss = 0.151359  |  val_loss = 0.162727  |  training_for: 27.81
+epoch: 15
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 15  |  train_loss = 0.151144  |  val_loss = 0.161484  |  training_for: 29.61
+epoch: 16
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 16  |  train_loss = 0.150892  |  val_loss = 0.161035  |  training_for: 31.43
+epoch: 17
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 17  |  train_loss = 0.150731  |  val_loss = 0.160444  |  training_for: 33.25
+epoch: 18
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 18  |  train_loss = 0.150565  |  val_loss = 0.159677  |  training_for: 35.08
+epoch: 19
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 19  |  train_loss = 0.150452  |  val_loss = 0.159842  |  training_for: 36.91
+epoch: 20
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 20  |  train_loss = 0.150312  |  val_loss = 0.159164  |  training_for: 38.75
+epoch: 21
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 21  |  train_loss = 0.150225  |  val_loss = 0.159044  |  training_for: 40.56
+epoch: 22
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 22  |  train_loss = 0.150137  |  val_loss = 0.158899  |  training_for: 42.49
+epoch: 23
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 23  |  train_loss = 0.150064  |  val_loss = 0.158320  |  training_for: 44.32
+epoch: 24
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 24  |  train_loss = 0.149975  |  val_loss = 0.158455  |  training_for: 46.16
+epoch: 25
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 25  |  train_loss = 0.149935  |  val_loss = 0.158049  |  training_for: 47.93
+epoch: 26
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 26  |  train_loss = 0.149873  |  val_loss = 0.157962  |  training_for: 49.75
+epoch: 27
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 27  |  train_loss = 0.149831  |  val_loss = 0.158078  |  training_for: 51.56
+epoch: 28
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 28  |  train_loss = 0.149794  |  val_loss = 0.157520  |  training_for: 53.38
+epoch: 29
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 29  |  train_loss = 0.149733  |  val_loss = 0.158087  |  training_for: 55.24
+epoch: 30
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 30  |  train_loss = 0.149701  |  val_loss = 0.157552  |  training_for: 57.08
+epoch: 31
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 31  |  train_loss = 0.149657  |  val_loss = 0.157797  |  training_for: 58.88
+epoch: 32
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 32  |  train_loss = 0.149593  |  val_loss = 0.157730  |  training_for: 60.71
+epoch: 33
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 33  |  train_loss = 0.149569  |  val_loss = 0.157904  |  training_for: 62.52
+epoch: 34
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 34  |  train_loss = 0.149534  |  val_loss = 0.157778  |  training_for: 64.40
+epoch: 35
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 35  |  train_loss = 0.149515  |  val_loss = 0.157989  |  training_for: 66.36
+epoch: 36
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 36  |  train_loss = 0.149472  |  val_loss = 0.157619  |  training_for: 68.13
+epoch: 37
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 37  |  train_loss = 0.149456  |  val_loss = 0.158641  |  training_for: 69.96
+epoch: 38
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 38  |  train_loss = 0.149409  |  val_loss = 0.158289  |  training_for: 71.78
+epoch: 39
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+epoch = 39  |  train_loss = 0.149391  |  val_loss = 0.158541  |  training_for: 73.64
+epoch: 40
+Memory Allocated: 114592768
+Max Memory Allocated: 654919168
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 130, in <module>
+    main()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 116, in main
+    train(model = model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 147, in train
+    for batch_num, batch in enumerate(val_dl):
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 678, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+KeyboardInterrupt

@@ -1,0 +1,10 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 109, in main
+    train(model,
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 118, in train
+    loss = loss_calc(model, batch)  #compute training loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 44, in calc_loss
+    x, _ = batch
+ValueError: too many values to unpack (expected 2)
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

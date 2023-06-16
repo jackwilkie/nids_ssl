@@ -1,0 +1,137 @@
+epoch: 0
+Memory Allocated: 19602944
+Max Memory Allocated: 19602944
+epoch = 0  |  train_loss = 0.165782  |  val_loss = 0.164524  |  training_for: 1.78
+epoch: 1
+Memory Allocated: 77421056
+Max Memory Allocated: 319610880
+epoch = 1  |  train_loss = 0.154275  |  val_loss = 0.160107  |  training_for: 3.19
+epoch: 2
+Memory Allocated: 116353536
+Max Memory Allocated: 360343552
+epoch = 2  |  train_loss = 0.151219  |  val_loss = 0.159811  |  training_for: 4.62
+epoch: 3
+Memory Allocated: 154670592
+Max Memory Allocated: 398660608
+epoch = 3  |  train_loss = 0.150330  |  val_loss = 0.159634  |  training_for: 6.04
+epoch: 4
+Memory Allocated: 193952256
+Max Memory Allocated: 437867520
+epoch = 4  |  train_loss = 0.149946  |  val_loss = 0.159756  |  training_for: 7.50
+epoch: 5
+Memory Allocated: 234270208
+Max Memory Allocated: 475463680
+epoch = 5  |  train_loss = 0.149624  |  val_loss = 0.159628  |  training_for: 8.93
+epoch: 6
+Memory Allocated: 272744960
+Max Memory Allocated: 516544512
+epoch = 6  |  train_loss = 0.149400  |  val_loss = 0.158229  |  training_for: 10.35
+epoch: 7
+Memory Allocated: 312576512
+Max Memory Allocated: 552671232
+epoch = 7  |  train_loss = 0.149312  |  val_loss = 0.159813  |  training_for: 11.77
+epoch: 8
+Memory Allocated: 352548352
+Max Memory Allocated: 593255936
+epoch = 8  |  train_loss = 0.149117  |  val_loss = 0.159826  |  training_for: 13.23
+epoch: 9
+Memory Allocated: 390458880
+Max Memory Allocated: 632502272
+epoch = 9  |  train_loss = 0.148988  |  val_loss = 0.160196  |  training_for: 14.65
+epoch: 10
+Memory Allocated: 429668864
+Max Memory Allocated: 672203776
+epoch = 10  |  train_loss = 0.148933  |  val_loss = 0.160137  |  training_for: 16.18
+epoch: 11
+Memory Allocated: 468875776
+Max Memory Allocated: 711402496
+epoch = 11  |  train_loss = 0.148902  |  val_loss = 0.160168  |  training_for: 17.61
+epoch: 12
+Memory Allocated: 509757952
+Max Memory Allocated: 749616128
+epoch = 12  |  train_loss = 0.148838  |  val_loss = 0.161126  |  training_for: 19.04
+epoch: 13
+Memory Allocated: 550167040
+Max Memory Allocated: 788496384
+epoch = 13  |  train_loss = 0.148808  |  val_loss = 0.161157  |  training_for: 20.48
+epoch: 14
+Memory Allocated: 589164032
+Max Memory Allocated: 832627200
+epoch = 14  |  train_loss = 0.148804  |  val_loss = 0.159968  |  training_for: 21.92
+epoch: 15
+Memory Allocated: 628517376
+Max Memory Allocated: 871928320
+epoch = 15  |  train_loss = 0.148793  |  val_loss = 0.160489  |  training_for: 23.35
+epoch: 16
+Memory Allocated: 667392512
+Max Memory Allocated: 910797312
+epoch = 16  |  train_loss = 0.148750  |  val_loss = 0.161872  |  training_for: 24.80
+epoch: 17
+Memory Allocated: 707232256
+Max Memory Allocated: 951139328
+epoch = 17  |  train_loss = 0.148725  |  val_loss = 0.160593  |  training_for: 26.22
+epoch: 18
+Memory Allocated: 746585600
+Max Memory Allocated: 990603264
+epoch = 18  |  train_loss = 0.148722  |  val_loss = 0.159840  |  training_for: 27.66
+epoch: 19
+Memory Allocated: 786425344
+Max Memory Allocated: 1028233216
+epoch = 19  |  train_loss = 0.148665  |  val_loss = 0.160100  |  training_for: 29.12
+epoch: 20
+Memory Allocated: 825549312
+Max Memory Allocated: 1068653568
+epoch = 20  |  train_loss = 0.148664  |  val_loss = 0.158955  |  training_for: 30.56
+epoch: 21
+Memory Allocated: 865411584
+Max Memory Allocated: 1105590272
+epoch = 21  |  train_loss = 0.148670  |  val_loss = 0.159509  |  training_for: 31.98
+epoch: 22
+Memory Allocated: 905010688
+Max Memory Allocated: 1147792384
+epoch = 22  |  train_loss = 0.148654  |  val_loss = 0.160697  |  training_for: 33.41
+epoch: 23
+Memory Allocated: 945328640
+Max Memory Allocated: 1189145600
+epoch = 23  |  train_loss = 0.148648  |  val_loss = 0.160385  |  training_for: 34.93
+epoch: 24
+Memory Allocated: 985126400
+Max Memory Allocated: 1228923392
+Traceback (most recent call last):
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 128, in <module>
+    if __name__ == '__main__':
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/jwilkie/code_base/nids_ssl/main.py", line 115, in main
+    # unsupervised pretraining
+  File "/home/jwilkie/code_base/packages/model_training/training_loops.py", line 149, in train
+    loss = loss_calc(model, batch)  #compute validation loss
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/composite_loss.py", line 45, in calc_loss
+    z = model.feed(x)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/saint/saint.py", line 138, in feed
+    return self.encoder(self.embedding_layer(x))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/embedding.py", line 161, in forward
+    output.append(layer(x_i.unsqueeze(1).float()))
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/code_base/packages/self_supervised/tabular/embedding.py", line 74, in forward
+    return self.linear(x)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jwilkie/pylabs/env/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

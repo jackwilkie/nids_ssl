@@ -1,0 +1,151 @@
+{
+    "os": "Linux-5.19.0-43-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-06-14T17:10:40.154643",
+    "startedAt": "2023-06-14T17:10:39.487285",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jwilkie/code_base/nids_ssl/main.py",
+    "codePath": "main.py",
+    "host": "arran",
+    "username": "jwilkie",
+    "executable": "/home/jwilkie/pylabs/env/bin/python3",
+    "cpu_count": 10,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1964.8853000000004,
+        "min": 1200.0,
+        "max": 4560.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.16,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1200.778,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1200.277,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.98,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1199.365,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.246,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1200.115,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1499.999,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.787,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.088,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.487,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1200.974,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.885,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1199.376,
+            "min": 1200.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "total": 438.5479202270508,
+        "used": 221.07369995117188
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 125.49096298217773
+    }
+}

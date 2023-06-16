@@ -1,0 +1,15 @@
+---
+
+name: saint cicids2017
+script: train
+device: 'cuda:1'
+project: saint_nids
+run_name: test_run 
+log: True
+#dataset: cicids2017
+
+defaults:
+    - dataset: cicids2017
+    - model: saint
+    - hyperparameters: standard_hps
+    - _self_

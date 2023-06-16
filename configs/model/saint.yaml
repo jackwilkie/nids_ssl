@@ -1,0 +1,26 @@
+---
+
+name: saint
+d_model: 32
+encoder_d_ff: 64
+d_proj_ff: 256
+d_proj: 128
+n_encoder_layers: 2
+encoder_dropout: 0.3
+dropout_ff: 0.3
+dropout_attn: 0.3
+n_heads: 8
+p_sample_cutmix: 1.
+p_feature_cutmix: 0.3
+p_sample_mixup: 1.
+p_feature_mixup: 1.
+alpha_mixup: 0.8
+p_sample_jitter: 0.
+p_feature_jitter: 1.
+var_jitter: 0.01
+encoder_norm: 'rms_norm'
+encoder_activation: 'swiglu'
+encoder_model: 'saint_s'
+n_numeric: 26
+n_cat: 0
+cats: []
