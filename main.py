@@ -12,16 +12,15 @@ from self_supervised.tabular.saint import saint, composite_loss
 
 import torch as T
 from model_training.training_loops import train
-from model_training.dataloaders import unlabelled_tabular_dl
+from model_training.dataloaders import tabular_dl
 from data_read.limited_data import get_limited_train_set
 from data_read.tabular_data import dataset_from_config
 from omegaconf import DictConfig, OmegaConf
 from loggers import logger
 import hydra
 import inspect 
-from utils import get_id
+from self_supervised import linear_probe
 from utils.optimisers import get_std_opt
-
 
 def create_model(config_dict, device):
     
@@ -80,6 +79,8 @@ def main(config: DictConfig):
     # create model
     model = create_model(config['model'], config.device)
     
+    #summary(model, (config.hyperparameters.batch_size, config.model.n_numeric + config.model.n_cat))
+    
     #import dataset 
     x_train, x_test, y_train, y_test = dataset_from_config(config['dataset'])
     
@@ -88,10 +89,11 @@ def main(config: DictConfig):
     x_train = T.tensor(x_train, device = config.device)
     x_test = T.tensor(x_test, device = config.device)
     y_train = T.tensor(y_train, device = config.device)
-
+    y_test = T.tensor(y_test, device = config.device)
+    
     # get dataloaders
-    train_dl = unlabelled_tabular_dl(x_train, batch_size = config['hyperparameters']['batch_size'], device = config['device'])
-    val_dl =  unlabelled_tabular_dl(x_test, batch_size = config['hyperparameters']['batch_size'], device = config['device'])
+    train_dl = tabular_dl(x_train, y = y_train, batch_size = config['hyperparameters']['batch_size'], balanced = False, device = config['device'])
+    val_dl =  tabular_dl(x_test, y= y_test, batch_size = config['hyperparameters']['batch_size'], balanced = False, device = config['device'])
     
     if config.log:
         #stats = logger.Logger(project = config['project'], run_name =  f'{config["run_name"]}_{get_id.get_id()}',config = config)
@@ -100,31 +102,77 @@ def main(config: DictConfig):
         stats = None
         
     #optimiser = T.optim.AdamW(model.parameters(), lr= config.hyperparameters.unsupervised_lr, weight_decay= config.hyperparameters.decay)  #define optimiser
-    optimiser = get_std_opt(model, config.model.d_model)
+    optimiser = get_std_opt(model, config.model.d_model, warmup = config.hyperparameters.optimiser_warmup)
     #scheduler = T.optim.lr_scheduler.CosineAnnealingLR(optimiser, config['hyperparameters']['epochs'], verbose=False)
     
     loss = composite_loss.make_composite_loss(
         d_model = config.model.d_model, 
-        d_hidden = config.model.d_proj_ff, 
-        d_proj = config.model.d_proj, 
+        d_hidden_contrastive = config.model.d_hidden_contrastive,
+        d_proj_contrastive = config.model.d_proj_contrastive,
+        d_hidden_reconstructive = config.model.d_hidden_reconstructive,
+        d_proj_reconstructive = config.model.d_proj_reconstructive,
         temperature = config.hyperparameters.temperature, 
         n_num = config.model.n_numeric, 
         n_cat = config.model.n_cat, 
         cats = config.model.cats, 
         lambda_pt = config.hyperparameters.lambda_pt,
+        contrastive_reduction = config.model.contrastive_reduction,
         device = config.device)
+    
+    
+    if config.model.probe == 'linear':
+        probe = linear_probe.LinearProbe(d_model = config.model.d_model,
+                                         n_features = config.model.n_numeric + 1 + config.model.n_cat,
+                                         n_classes = config.dataset.n_classes,
+                                         reduction = config.model.probe_reduction
+                                         )
+    elif config.model.probe == 'knn':
+        probe = linear_probe.KNNProbe(reduction = config.model.probe_reduction,
+                                      n = config.model.probe_n)
+        
+    probe.to(config.device)
     
     # unsupervised pretraining
     train(model = model,
           optimiser = optimiser,
           loss_calc = loss.calc_loss,
-          epochs = config['hyperparameters']['epochs'],
+          epochs = config['hyperparameters']['unsupervised_epochs'],
           train_dl = train_dl,
           val_dl = val_dl,
           #scheduler = scheduler,
-          logger = stats
+          logger = stats,
+          eval_func = probe.train_eval,
+          eval_interval = 1,
+          ep_log_interval= 0
           )
-         
+    
+    
+    optimiser = T.optim.AdamW(model.parameters(), lr= config.hyperparameters.supervised_lr, weight_decay= config.hyperparameters.decay)  #define optimiser
+    scheduler = T.optim.lr_scheduler.CosineAnnealingLR(optimiser, config['hyperparameters']['supervised_epochs'], verbose=False)
+    
+    # get dataloaders
+    train_dl = tabular_dl(x_train, y = y_train, batch_size = config['hyperparameters']['batch_size'], balanced = True, device = config['device'])
+    val_dl =  tabular_dl(x_test, y= y_test, batch_size = config['hyperparameters']['batch_size'], balanced = True, device = config['device'])
+    
+    
+    if config.model.probe == 'linear':
+        probe = linear_probe.LinearProbe(d_model = config.model.d_model,
+                                         n_features = config.model.n_numeric + 1 + config.model.n_cat,
+                                         n_classes = config.dataset.n_classes,
+                                         reduction = config.model.probe_reduction,
+                                         freeze_weights = False,
+                                         lr = config.hyperparameters.supervised_lr,
+                                         epochs = config.hyperparameters.supervised_epochs
+                                             )
+        
+    elif config.model.probe == 'knn':
+        probe = linear_probe.KNNProbe(reduction = config.model.probe_reduction,
+                                      n = config.model.probe_n)
+    
+    
+    probe.to(config.device)
+    
+    probe.train_eval(model, train_dl, val_dl)
     
     
 if __name__ == '__main__':

@@ -2,7 +2,7 @@
 
 name: saint cicids2017
 script: train
-device: 'cuda:1'
+device: 'cuda:2'
 project: saint_nids
 run_name: test_run 
 log: True
