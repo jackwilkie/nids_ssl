@@ -1,0 +1,5 @@
+---
+
+name: knn
+reduction: cls
+max_k: 20 

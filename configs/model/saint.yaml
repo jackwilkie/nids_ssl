@@ -1,17 +1,17 @@
 ---
 
 name: saint
-d_model: 32
+d_model: 64
 encoder_d_ff: 128
-d_hidden_reconstructive: 64 
-d_proj_reconstructive: 32
+d_hidden_reconstructive: 128 
+d_proj_reconstructive: 64
 d_hidden_contrastive: 256 
 d_proj_contrastive: 128
-n_encoder_layers: 6
-encoder_dropout: 0.3
-dropout_ff: 0.3
-dropout_attn: 0.3
-n_heads: 8
+n_encoder_layers: 5
+encoder_dropout: 0.1
+dropout_ff: 0.1
+dropout_attn: 0.1
+n_heads: 4
 p_sample_cutmix: 1.
 p_feature_cutmix: 0.3
 p_sample_mixup: 1.
@@ -21,13 +21,7 @@ p_sample_jitter: 1.
 p_feature_jitter: 1.
 var_jitter: 0.01
 encoder_norm: 'rms_norm'
-encoder_activation: 'swiglu'
+encoder_activation: 'gelu'
 encoder_model: 'saint_s'
-n_numeric: 26
-n_cat: 0
-cats: []
 contrastive_reduction: null
-probe_reduction: 'cls'
-probe: linear
-max_k : 10
 finetune_type: linear

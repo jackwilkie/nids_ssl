@@ -2,14 +2,17 @@
 
 name: saint cicids2017
 script: train
-device: 'cuda:2'
 project: saint_nids
 run_name: test_run 
-log: True
+log: False
+eval_interval: 0
+
 #dataset: cicids2017
 
 defaults:
     - dataset: cicids2017
     - model: saint
     - hyperparameters: standard_hps
+    - training_probe: linear
+    - eval_probe: triplet
     - _self_

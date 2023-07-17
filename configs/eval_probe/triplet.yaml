@@ -1,0 +1,15 @@
+---
+
+name: triplet
+reduction: null
+loss: triplet
+lr: 0.001
+weight_decay: 0.
+d_out: 64
+activation: relu
+epochs: 200
+proj_rati: null
+freeze_weights: False
+batch_size: 128 
+max_k: 20
+m: 0.5

@@ -1,0 +1,13 @@
+---
+
+name: arcface
+reduction: null
+loss: cross_entropy
+lr: 0.001
+weight_decay: 0.01
+activation: relu
+epochs: 100
+proj_ratio: null
+freeze_weights: False
+max_k: 20
+inference: min_angle
